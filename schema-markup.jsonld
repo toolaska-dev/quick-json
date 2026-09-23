@@ -1,0 +1,123 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebApplication",
+      "@id": "https://json.toolaska.com/#webapp",
+      "name": "JSON Formatter & Validator — Toolaska",
+      "alternateName": ["Quick-JSON", "Toolaska JSON Beautifier", "Toolaska JSON Validator"],
+      "url": "https://json.toolaska.com/",
+      "description": "Free online JSON formatter and validator. Instantly beautify, validate, minify, and debug JSON data with real-time syntax error highlighting, collapsible tree view, and 100% private client-side processing.",
+      "applicationCategory": "DeveloperApplication",
+      "operatingSystem": "All",
+      "browserRequirements": "Requires JavaScript. Works in Chrome, Firefox, Safari, Edge, and all modern web browsers.",
+      "softwareVersion": "1.0.0",
+      "inLanguage": "en",
+      "image": "https://json.toolaska.com/og-image.png",
+      "screenshot": "https://json.toolaska.com/og-image.png",
+      "author": {
+        "@id": "https://toolaska.com/#organization"
+      },
+      "publisher": {
+        "@id": "https://toolaska.com/#organization"
+      },
+      "offers": {
+        "@type": "Offer",
+        "price": "0",
+        "priceCurrency": "USD",
+        "availability": "https://schema.org/InStock"
+      },
+      "featureList": [
+        "Real-time JSON syntax validation and error detection",
+        "Automatic formatting and pretty-printing (2 spaces, 4 spaces, tabs)",
+        "Interactive collapsible JSON tree view",
+        "Browser-saved JSONs with instant switching between drafts",
+        "Fast JSON minification and whitespace removal",
+        "Line and column error indicator",
+        "One-click copy to clipboard",
+        "Download formatted .json file",
+        "100% client-side privacy with zero server storage",
+        "Responsive dark and light themes"
+      ]
+    },
+    {
+      "@type": "Organization",
+      "@id": "https://toolaska.com/#organization",
+      "name": "Toolaska",
+      "url": "https://toolaska.com",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://json.toolaska.com/logo.png"
+      },
+      "sameAs": [
+        "https://json.toolaska.com",
+        "https://compiler.toolaska.com",
+        "https://diff.toolaska.com",
+        "https://github.com/toolaska-dev/quick-json"
+      ],
+      "contactPoint": {
+        "@type": "ContactPoint",
+        "contactType": "Customer Support",
+        "email": "info@toolaska.com",
+        "url": "https://json.toolaska.com/contact"
+      }
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://json.toolaska.com/#website",
+      "url": "https://json.toolaska.com/",
+      "name": "Quick-JSON by Toolaska",
+      "description": "Professional developer tools for formatting, beautifying, minifying, and validating JSON data online.",
+      "publisher": {
+        "@id": "https://toolaska.com/#organization"
+      },
+      "inLanguage": "en"
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://json.toolaska.com/faq#faqpage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "How do I format and beautify JSON data online?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Simply paste your raw or minified JSON data into the Quick-JSON editor at json.toolaska.com. The tool automatically detects your payload, formats it with consistent indentation (2 spaces, 4 spaces, or tabs), and displays syntax errors in real time."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is my JSON data kept private when using Toolaska?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. Quick-JSON processes 100% of formatting, parsing, and validation directly inside your web browser using client-side JavaScript. No data is ever sent, logged, or stored on external servers."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How can I explore nested objects with the Tree View?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Switch to Tree View mode to transform raw JSON text into an interactive, collapsible tree diagram. You can expand and collapse individual arrays and objects, inspect data types, and navigate large JSON responses with ease."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What common JSON syntax errors does Quick-JSON detect?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Quick-JSON detects missing or extra commas, trailing commas, single quotes instead of double quotes, unquoted keys, unclosed braces or brackets, and malformed data types with precise line and character indicators."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can I minify JSON to reduce payload size?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. Quick-JSON includes a one-click minifier that eliminates unnecessary whitespace, indentation, and newlines to compress your JSON payload for production APIs and network transmission."
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,1 +1,5 @@
-
+Toolaska Quick-JSON
+Online JSON Formatter, Validator & Beautifier
+Production URL: https://json.toolaska.com
+Repository: https://github.com/toolaska-dev/quick-json
+Contact: info@toolaska.com

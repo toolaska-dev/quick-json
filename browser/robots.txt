@@ -1,0 +1,6 @@
+User-agent: *
+Allow: /
+Disallow: /privacy-policy/print
+Disallow: /terms-and-conditions/print
+
+Sitemap: https://json.toolaska.com/sitemap.xml

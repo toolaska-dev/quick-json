@@ -1,0 +1,20 @@
+# Crawl-delay and user-agent rules for Toolaska Quick-JSON
+User-agent: *
+Allow: /
+Disallow: /privacy-policy/print
+Disallow: /terms-and-conditions/print
+
+# Googlebot specific rules
+User-agent: Googlebot
+Allow: /
+Disallow: /privacy-policy/print
+Disallow: /terms-and-conditions/print
+
+# Bingbot specific rules
+User-agent: Bingbot
+Allow: /
+Disallow: /privacy-policy/print
+Disallow: /terms-and-conditions/print
+
+# Canonical XML Sitemap
+Sitemap: https://json.toolaska.com/sitemap.xml
