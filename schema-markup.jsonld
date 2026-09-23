@@ -31,6 +31,7 @@
         "Real-time JSON syntax validation and error detection",
         "Automatic formatting and pretty-printing (2 spaces, 4 spaces, tabs)",
         "Interactive collapsible JSON tree view",
+        "Browser-saved JSONs with instant switching between drafts",
         "Fast JSON minification and whitespace removal",
         "Line and column error indicator",
         "One-click copy to clipboard",

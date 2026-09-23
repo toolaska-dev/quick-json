@@ -42,6 +42,7 @@ Explore related developer utilities by Toolaska:
 - [Why Quick-JSON? Feature Comparison](#-why-quick-json-feature-comparison)
 - [How to Format and Validate JSON](#-how-to-format-and-validate-json)
 - [Interactive Tree View](#-interactive-tree-view)
+- [Browser Save & Quick Switch (Saved JSONs)](#-browser-save--quick-switch-saved-jsons)
 - [Security & Data Privacy](#-security--data-privacy)
 - [Common JSON Syntax Errors Detected](#-common-json-syntax-errors-detected)
 - [Keyboard Shortcuts](#-keyboard-shortcuts)
@@ -71,6 +72,9 @@ Unlike legacy web tools that transmit your data to remote backend servers, **Qui
 - **🌳 Interactive Collapsible Tree View**
   - Navigate complex, deeply nested JSON objects and arrays effortlessly.
   - Expand or collapse individual nodes, inspect data types, and copy specific branches.
+- **💾 Browser Save & Quick Switch (Saved JSONs)**
+  - Save multiple JSON snippets locally in your browser's persistent storage without requiring an account.
+  - Switch between different JSON payloads instantly with a single click—ideal for comparing API responses, debugging multiple endpoints, and keeping drafts accessible across sessions.
 - **🗜️ High-Speed JSON Minification**
   - Strip all whitespace and line breaks to generate compressed payloads optimized for network transit and production storage.
 - **🔒 Zero Data Retention / 100% Client-Side Privacy**
@@ -92,6 +96,7 @@ Unlike legacy web tools that transmit your data to remote backend servers, **Qui
 | **Data Privacy** | **100% Client-Side (Zero Server Transit)** | Frequently logged or stored on remote servers |
 | **Real-time Error Detection** | **Instant with Line & Column Highlighting** | Generic error messages without exact location |
 | **Interactive Tree Viewer** | **Collapsible Node Navigation** | Often plain text only |
+| **Browser Save & Quick Switch** | **Supported (Save & switch between multiple JSONs locally)** | Rarely available / requires account creation |
 | **Large File Handling** | **Optimized for Large Payloads** | Frequent browser freezes |
 | **Minification & Formatting** | **Both Supported in 1 Click** | Often requires separate tools |
 | **Ad Intrusion** | **Clean, Focused Developer Experience** | Cluttered with intrusive display ads |
@@ -118,6 +123,17 @@ Working with complex JSON APIs containing thousands of lines? The **Tree View** 
 - Click node triangles to expand or collapse arrays and nested objects.
 - Distinct color-coded badges for data types: `string`, `number`, `boolean`, `array`, `object`, and `null`.
 - Quick insight into item counts for collections without manual counting.
+
+---
+
+## 💾 Browser Save & Quick Switch (Saved JSONs)
+
+Juggling multiple API responses, microservice configs, or testing different payloads? Quick-JSON includes a built-in **Saved JSONs** feature that operates directly in your browser:
+
+- **Instant Local Saving**: Save your active JSON document with one click so you never lose working drafts when refreshing or closing the browser tab.
+- **One-Click Quick Switching**: Jump between multiple saved JSON snippets instantly from the Saved JSONs panel, allowing rapid comparison, payload inspection, and multitasking.
+- **100% Private Local Storage**: Saved documents reside exclusively in your browser's HTML5 Web Storage (`localStorage`). No payload is ever sent to or stored on remote servers.
+- **Seamless Organization**: Keep distinct API responses, schemas, and configurations organized and ready to inspect at a moment's notice.
 
 ---
 
@@ -226,6 +242,12 @@ Yes, the engine is optimized to handle large datasets smoothly without crashing 
 <summary><b>5. Can I use Quick-JSON offline?</b></summary>
 <br>
 Yes, once the web application assets are cached by your browser, core formatting and validation logic can run even without an active internet connection.
+</details>
+
+<details>
+<summary><b>6. Can I save JSON snippets in the browser to switch between them quickly?</b></summary>
+<br>
+Yes! Quick-JSON features <b>Saved JSONs</b>, allowing you to store multiple JSON payloads directly in your browser's local storage. You can quickly switch between different JSON drafts with a single click, making it effortless to debug multiple API responses or preserve your work across browser sessions without creating an account.
 </details>
 
 ---
