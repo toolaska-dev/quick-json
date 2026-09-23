@@ -5,7 +5,7 @@
 ### Professional Online JSON Beautifier, Syntax Checker, Minifier, and Tree Viewer
 
 [![Live Tool](https://img.shields.io/badge/Live%20Tool-json.toolaska.com-2563eb?style=for-the-badge&logo=google-chrome&logoColor=white)](https://json.toolaska.com/)
-[![License: MIT](https://img.shields.io/badge/License-MIT-emerald?style=for-the-badge)](LICENSE)
+[![License: Apache 2.0](https://img.shields.io/badge/License-Apache_2.0-blue?style=for-the-badge)](LICENSE)
 [![Privacy](https://img.shields.io/badge/Privacy-100%25%20Client--Side-purple?style=for-the-badge&logo=shield)](https://json.toolaska.com/)
 [![Status](https://img.shields.io/badge/Status-Active-blue?style=for-the-badge)](https://json.toolaska.com/)
 
@@ -249,7 +249,7 @@ Please check out [CONTRIBUTING.md](CONTRIBUTING.md) to learn how to open issues 
 
 ## 📄 License
 
-This repository and its documentation are open-source under the [MIT License](LICENSE).
+This repository and its documentation are open-source under the [Apache License 2.0](LICENSE).
 
 ---
 
